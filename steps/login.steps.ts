@@ -14,7 +14,3 @@ Then('I will login as {string}', async (userName) => {
 Then('I will validate error message {string}', async(errorMessageVal) => {
   await new Login(getPage()).getErrorMessage(errorMessageVal);
 });
-
-Then('Select the cart \(top-right)', () => {
-  // Write code here that turns the phrase above into concrete actions
-})
