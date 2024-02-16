@@ -15,7 +15,6 @@ Then('I sort the item {string}', async function (value1) {
   }
 });
 
-
 Then('I verify the sort operation {string}', async function (value2) {
   if(value2=="high to low"){
     await new Product(getPage()).verifyLowToHigh();
